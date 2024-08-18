@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/clinique_marhaba/static/css/main.f855e6bc.css",
-    "main.js": "/clinique_marhaba/static/js/main.e81094ec.js",
-    "static/js/453.ed3810f9.chunk.js": "/clinique_marhaba/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/clinique_marhaba/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/clinique_marhaba/static/css/main.fd50910a.css",
+    "main.js": "/clinique_marhaba/static/js/main.ce4f8db2.js",
+    "static/media/dc.png": "/clinique_marhaba/static/media/dc.01d1b5db415d7c7d30f7.png",
+    "static/media/docteur2.jpg": "/clinique_marhaba/static/media/docteur2.736627a3d45026505b55.jpg",
+    "static/media/logo-clinic.png": "/clinique_marhaba/static/media/logo-clinic.4066e258cc1289e186d5.png",
+    "static/media/docteur1.jpg": "/clinique_marhaba/static/media/docteur1.1eb1fe2bdd302a83a377.jpg",
+    "static/media/docteur3.jpg": "/clinique_marhaba/static/media/docteur3.202b5c78198ba63c552d.jpg",
+    "static/media/docteur4.jpg": "/clinique_marhaba/static/media/docteur4.8b93d83806e6f707c21d.jpg",
+    "static/media/aboutImage.jpg": "/clinique_marhaba/static/media/aboutImage.419aad18ffbffc174611.jpg",
+    "static/media/bg.jpg": "/clinique_marhaba/static/media/bg.34eca5b86baf722ffeb7.jpg",
     "index.html": "/clinique_marhaba/index.html",
-    "main.f855e6bc.css.map": "/clinique_marhaba/static/css/main.f855e6bc.css.map",
-    "main.e81094ec.js.map": "/clinique_marhaba/static/js/main.e81094ec.js.map",
-    "453.ed3810f9.chunk.js.map": "/clinique_marhaba/static/js/453.ed3810f9.chunk.js.map"
+    "main.fd50910a.css.map": "/clinique_marhaba/static/css/main.fd50910a.css.map",
+    "main.ce4f8db2.js.map": "/clinique_marhaba/static/js/main.ce4f8db2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e81094ec.js"
+    "static/css/main.fd50910a.css",
+    "static/js/main.ce4f8db2.js"
   ]
 }
