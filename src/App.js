@@ -10,18 +10,19 @@ function App() {
  const router = createBrowserRouter([
   {
     path: '/',
+    // path: 'clinique_marhaba',
     element: <MainHeader />,
     children: [
        {
-    path: '/',
+    path: 'clinique_marhaba',
     element: <Home />
   },
        {
-    path: '/apropos',
+    path: 'clinique_marhaba/apropos',
     element: <Apropos />
   },
   {
-    path: '/contact',
+    path: 'clinique_marhaba/contact',
     element: <Contact />
   }
     ]
