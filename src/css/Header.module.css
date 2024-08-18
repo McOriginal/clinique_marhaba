@@ -1,0 +1,141 @@
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    /* background:linear-gradient(to top, rgba(20, 11, 129, 0.358), rgba(21, 11, 129, 0.144),rgba(21, 11, 129, 0.1)); */
+}
+
+header img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.box_img{ 
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    background: linear-gradient( to top left,var(--cyan), var(--bg-color));
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+
+.header__container{
+    width: 100%;
+    margin-bottom: 10rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.header__containte{
+    width: 100%;
+}
+
+.header__containte p{
+ font-size: 1.5rem;
+ font-weight: 400;
+ text-align: center;
+ font-family:  "Nova Mono", monospace;
+}
+
+
+.header__containte .p1{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
+    background: var(--bg-color);
+}
+
+
+
+.header__containte h1{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: "Salsa", cursive ;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: rgb(255, 252, 249);
+}
+
+
+.header_btn{
+    font-size: 0.9rem;
+    font-family: "Nova Mono", monospace;
+    padding: 0.6rem;
+    margin-right: 0.7rem;
+    background: transparent;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--light-cyan);
+    border-radius: 0.5rem;
+    transition: all ease-in 0.3s;
+  }
+
+
+
+@media screen and (max-width: 768px ){
+    
+    body{
+        margin: 0;
+        background: #eee;
+      }
+
+
+    .header__containte{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .header__containte h1{
+        font-size: 2rem;
+    }
+    .header__containte p{
+        font-size: 1.2rem;
+    }
+
+}  
+
+
+@media screen and (max-width: 460px) {
+    .header__container .p1{
+        font-size: 1.5rem;
+        
+    }
+
+    .header__container h1{
+        font-size: 1.3rem;
+        margin: 1rem;
+        text-align: left;
+    }
+
+    .header__container .p2{
+        font-size: 1rem;
+        margin: 0 1rem;
+        text-align: left;
+    }
+
+    header .box_btn{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+     .box_btn button{
+        margin: auto;
+    }
+}

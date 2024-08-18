@@ -1,0 +1,75 @@
+
+
+.team__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team_card_box{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+.team__containte{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+
+
+
+.team__containte p{
+ font-size: 1rem;
+ font-family:  "Nova Mono", monospace;
+}
+
+.team__containte .p1{
+    color: var(--cyan);
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: "Salsa", cursive ;
+    font-weight: 600;
+}
+.team__containte .p2{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+
+.team__containte h1{
+    font-size: 2rem;
+    font-family: "Salsa", cursive ;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+
+
+/* font-family: "Salsa", cursive; */
+
+@media screen and (max-width: 900px) {
+    .team_card_box{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 460px) {
+
+    .team_card_box{
+        display: flex;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+}
