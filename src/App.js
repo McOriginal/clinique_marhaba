@@ -17,11 +17,11 @@ function App() {
     element: <Home />
   },
        {
-    path: 'clinique_marhaba/apropos',
+    path: 'mcoriginal.github.io/clinique_marhaba/apropos',
     element: <Apropos />
   },
   {
-    path: 'clinique_marhaba/contact',
+    path: 'mcoriginal.github.io/clinique_marhaba/contact',
     element: <Contact />
   }
     ]
