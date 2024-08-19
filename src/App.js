@@ -13,7 +13,7 @@ function App() {
     element: <MainHeader />,
     children: [
        {
-    path: 'cliniquemarhaba',
+    path: 'mcoriginal.github.io/clinique_marhaba/',
     element: <Home />
   },
        {
