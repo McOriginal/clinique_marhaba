@@ -13,7 +13,7 @@ function App() {
     element: <MainHeader />,
     children: [
        {
-    path: 'clinique_marhaba',
+    path: 'cliniquemarhaba',
     element: <Home />
   },
        {
