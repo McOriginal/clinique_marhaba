@@ -14,7 +14,7 @@ function App() {
     element: <MainHeader />,
     children: [
        {
-    path: 'clinique_marhaba',
+    path: 'cliniquemarhab.netlify.app',
     element: <Home />
   },
        {
