@@ -10,11 +10,10 @@ function App() {
  const router = createBrowserRouter([
   {
     path: '/',
-    // path: 'clinique_marhaba',
     element: <MainHeader />,
     children: [
        {
-    path: 'cliniquemarhab.netlify.app',
+    path: 'clinique_marhaba',
     element: <Home />
   },
        {
