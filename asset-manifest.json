@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clinique_marhaba/static/css/main.fd50910a.css",
-    "main.js": "/clinique_marhaba/static/js/main.fd7b6144.js",
+    "main.js": "/clinique_marhaba/static/js/main.ab7d0210.js",
     "static/media/dc.png": "/clinique_marhaba/static/media/dc.01d1b5db415d7c7d30f7.png",
     "static/media/docteur2.jpg": "/clinique_marhaba/static/media/docteur2.736627a3d45026505b55.jpg",
     "static/media/logo-clinic.png": "/clinique_marhaba/static/media/logo-clinic.4066e258cc1289e186d5.png",
@@ -12,10 +12,10 @@
     "static/media/bg.jpg": "/clinique_marhaba/static/media/bg.34eca5b86baf722ffeb7.jpg",
     "index.html": "/clinique_marhaba/index.html",
     "main.fd50910a.css.map": "/clinique_marhaba/static/css/main.fd50910a.css.map",
-    "main.fd7b6144.js.map": "/clinique_marhaba/static/js/main.fd7b6144.js.map"
+    "main.ab7d0210.js.map": "/clinique_marhaba/static/js/main.ab7d0210.js.map"
   },
   "entrypoints": [
     "static/css/main.fd50910a.css",
-    "static/js/main.fd7b6144.js"
+    "static/js/main.ab7d0210.js"
   ]
 }
