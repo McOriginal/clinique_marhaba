@@ -28,13 +28,13 @@ function NavigationLinks(){
            <div className={`${openMenu ? classes.open_navLinks : classes.navLinks}`} >
            <ul>
                 <li>
-                    <NavLink to='clinique_marhaba/' className={(({isActive}) => isActive ? classes.active : undefined)} end>Accueil</NavLink>
+                    <NavLink to='mcoriginal.github.io/clinique_marhaba/' className={(({isActive}) => isActive ? classes.active : undefined)} end>Accueil</NavLink>
                 </li>
                 <li>
-                    <NavLink to='clinique_marhaba/apropos' className={(({isActive} )=> isActive ? classes.active : undefined)} end>A propos</NavLink>
+                    <NavLink to='mcoriginal.github.io/clinique_marhaba/apropos' className={(({isActive} )=> isActive ? classes.active : undefined)} end>A propos</NavLink>
                 </li>
                 <li>
-                    <NavLink to='clinique_marhaba/contact' className={(({isActive}) => isActive ? classes.active : undefined)} end>Contacts</NavLink>
+                    <NavLink to='mcoriginal.github.io/clinique_marhaba/contact' className={(({isActive}) => isActive ? classes.active : undefined)} end>Contacts</NavLink>
                 </li>
         <IoMdCloseCircleOutline
         className={classes.closeIcon}
